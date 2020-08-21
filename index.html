@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,6 +24,10 @@
       .icon {
         width: 16px;
         height: 16px;
+      }
+      .home__avatar {
+        width: 300px;
+        height: 200px;
       }
     </style>
   </head>
@@ -50,18 +54,66 @@
         src="imgs/profile.png"
         alt="Minwook's profile photo"
         class="home__avatar"
-        width="300px"
-        height="200px"
       />
-      <h1 class="home__title">Hello, <br />I'm Dream Coder</h1>
-      <h2 class="home__description">
-        세상을 다 가지고픈 야망가. 호기심 충만한 개발자. 도전적이면서 정교한
-        사업가
-      </h2>
+      <h1 class="home__title">안녕하세요, <br />저는 <b>김민욱</b>입니다</h1>
+      <h3 class="home__description">
+        세상을 다 가지고픈 야망가. 호기심 충만한 개발자. 도전적인 사업가.
+      </h3>
       <button class="home__contact">Contact Me</button>
     </section>
     <!-- About -->
-    <section id="about"></section>
+    <section id="about">
+      <h1>About me</h1>
+      <p>
+        소프트웨어 창업을 꿈꾼지 반 년, 코딩을 공부하기 시작한 것이 2개월 째인
+        저는 24살, 사회학과 2학년 김민욱입니다. 제가 구상한 것을 실현한다는 것과
+        저의 능력에 따라 많은 사람에게 긍정적인 영향을 미칠 수 있다는 점에서
+        소프트웨어를 이용한 창업에 매력을 느끼게 되었습니다. 아직 컴퓨터에 대해
+        많이 알지는 못하지만, 언제나 열심히 준비하며 노력하고 있습니다.
+        소프트웨어융합전공을 통해 다양한 사람을 만나고 창업을 위한 기술과 지식을
+        키움으로써 더 좋은 사업가가 되기를 바라고 있습니다.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="major__title">Front-end</div>
+          <div class="major__description">
+            HTML, CSS, JavaScript,<br />React
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="major__title">Front-end</div>
+          <div class="major__description">
+            HTML, CSS, JavaScript,<br />React
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="major__title">Front-end</div>
+          <div class="major__description">
+            HTML, CSS, JavaScript,<br />React
+          </div>
+        </div>
+      </div>
+      <div class="about__school">
+        <div class="job">
+          <img
+            src="imgs/jobs/logo_Korea_University.png"
+            alt="Korea university"
+            class="school__logo"
+          />
+          <p class="school__name"></p>
+          <p class="school__period"></p>
+        </div>
+      </div>
+    </section>
     <section id="skills"></section>
     <section id="work"></section>
     <section id="testimonials"></section>
