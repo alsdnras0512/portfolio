@@ -51,31 +51,28 @@
         <li class="navbar__menu__item">Contact</li>
       </ul>
     </nav>
+
     <!-- Home -->
     <section id="home">
       <img
-        src="imgs/profile.png"
+        src="imgs/profile_1.png"
         alt="Minwook's profile photo"
         class="home__avatar"
       />
-      <h1 class="home__title">안녕하세요, <br />저는 <b>김민욱</b>입니다</h1>
+      <h1 class="home__title">
+        안녕하세요, <br />
+        <b>김민욱</b>입니다
+      </h1>
       <h3 class="home__description">
         세상을 다 가지고픈 야망가. 호기심 충만한 개발자. 도전적인 사업가.
       </h3>
       <button class="home__contact">Contact Me</button>
     </section>
+
     <!-- About -->
     <section id="about" class="section section__container">
       <h1>About me</h1>
-      <p>
-        소프트웨어 창업을 꿈꾼지 반 년, 코딩을 공부하기 시작한 것이 2개월 째인
-        저는 24살, 사회학과 2학년 김민욱입니다. 제가 구상한 것을 실현한다는 것과
-        저의 능력에 따라 많은 사람에게 긍정적인 영향을 미칠 수 있다는 점에서
-        소프트웨어를 이용한 창업에 매력을 느끼게 되었습니다. 아직 컴퓨터에 대해
-        많이 알지는 못하지만, 언제나 열심히 준비하며 노력하고 있습니다.
-        소프트웨어융합전공을 통해 다양한 사람을 만나고 창업을 위한 기술과 지식을
-        키움으로써 더 좋은 사업가가 되기를 바라고 있습니다.
-      </p>
+      <p></p>
       <div class="about__majors">
         <div class="major">
           <div class="major__icon">
@@ -88,23 +85,15 @@
         </div>
         <div class="major">
           <div class="major__icon">
-            <i class="fab fa-html5"></i>
+            <i class="fab fa-python"></i>
           </div>
-          <h2 class="major__title">Front-end</h2>
+          <h2 class="major__title">Back-end</h2>
           <div class="major__description">
-            HTML, CSS, JavaScript,<br />React
-          </div>
-        </div>
-        <div class="major">
-          <div class="major__icon">
-            <i class="fab fa-html5"></i>
-          </div>
-          <h2 class="major__title">Front-end</h2>
-          <div class="major__description">
-            HTML, CSS, JavaScript,<br />React
+            JavaScript, Python, RestAPI,<br />Jason
           </div>
         </div>
       </div>
+
       <div class="about__jobs">
         <div class="job">
           <img
@@ -119,6 +108,7 @@
         </div>
       </div>
     </section>
+
     <!-- Skills -->
     <section id="skills" class="section">
       <section class="section__container">
@@ -140,7 +130,7 @@
                 <span>75%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 75%;"></div>
+                <div class="skill__value" style="width: 75%"></div>
               </div>
             </div>
             <div class="skill">
@@ -149,7 +139,7 @@
                 <span>70%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 70%;"></div>
+                <div class="skill__value" style="width: 70%"></div>
               </div>
             </div>
             <div class="skill">
@@ -158,7 +148,7 @@
                 <span>50%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 50%;"></div>
+                <div class="skill__value" style="width: 50%"></div>
               </div>
             </div>
             <div class="skill">
@@ -167,7 +157,7 @@
                 <span>40%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 40%;"></div>
+                <div class="skill__value" style="width: 40%"></div>
               </div>
             </div>
           </div>
@@ -194,12 +184,13 @@
         </div>
       </section>
     </section>
+
     <!-- Work -->
     <section id="work" class="section">
       <h1>My work</h1>
       <h3>Projects</h3>
       <div class="work__categories">
-        <button class="category__btn">
+        <button class="category__btn active">
           All<span class="category__count">8</span>
         </button>
         <button class="category__btn">
@@ -214,65 +205,59 @@
         <!-- 해본 프로젝트 적는 것이므로 이렇게 안나눠도 됨 -->
       </div>
       <div class="work__projects">
-        <a href="" class="project__img" target="blank">
-          <img src="" alt="" />
+        <a href="" class="project" target="blank">
+          <img src="imgs/projects/memo.png" alt="" class="projects__img" />
           <div class="project__description">
-            <h3></h3>
-            <span></span>
+            <h3>나만의 메모장</h3>
+            <span
+              >메모장 코딩 with html, css, javascript, python, ajax,
+              mangoDB</span
+            >
           </div>
         </a>
-        <a href="" class="project__img" target="blank">
-          <img src="" alt="" />
+        <a href="" class="project" target="blank">
+          <img src="imgs/projects/mise.png" alt="" class="project__img" />
           <div class="project__description">
-            <h3></h3>
-            <span></span>
+            <h3>미세먼지 수치 사이트</h3>
+            <span>미세먼지 데이터받아오기 with jquery, ajax</span>
           </div>
         </a>
-        <a href="" class="project__img" target="blank">
-          <img src="" alt="" />
+        <a href="" class="project" target="blank">
+          <img
+            src="imgs/projects/onepageshop.png"
+            alt=""
+            class="project__img"
+          />
           <div class="project__description">
-            <h3></h3>
-            <span></span>
+            <h3>원페이지쇼핑몰</h3>
+            <span>쇼핑몰페이지 간단히 만들기 with bootstrap</span>
           </div>
         </a>
-        <a href="" class="project__img" target="blank">
-          <img src="" alt="" />
+        <a href="" class="project" target="blank">
+          <img src="imgs/projects/webscrap.png" alt="" class="project__img" />
           <div class="project__description">
-            <h3></h3>
-            <span></span>
+            <h3>웹스크래핑</h3>
+            <span>웹스크래핑 with python</span>
           </div>
         </a>
-        <a href="" class="project__img" target="blank">
-          <img src="" alt="" />
+        <a href="" class="project" target="blank">
+          <img src="imgs/projects/wordcloud.png" alt="" class="project__img" />
           <div class="project__description">
-            <h3></h3>
-            <span></span>
+            <h3>워드클라우드</h3>
+            <span>워드클라우드 만들기 with python</span>
           </div>
         </a>
-        <a href="" class="project__img" target="blank">
-          <img src="" alt="" />
+        <a href="" class="project" target="blank">
+          <img src="imgs/projects/loginpage.png" alt="" class="project__img" />
           <div class="project__description">
-            <h3></h3>
-            <span></span>
-          </div>
-        </a>
-        <a href="" class="project__img" target="blank">
-          <img src="" alt="" />
-          <div class="project__description">
-            <h3></h3>
-            <span></span>
-          </div>
-        </a>
-        <a href="" class="project__img" target="blank">
-          <img src="" alt="" />
-          <div class="project__description">
-            <h3></h3>
-            <span></span>
+            <h3>로그인페이지</h3>
+            <span>로그인페이지 with html, css, javascript</span>
           </div>
         </a>
         <!--이미지 크기 조절 사이트 이용하기-->
       </div>
     </section>
+
     <!-- Testimonials -->
     <section id="testimonials" class="section">
       <h1>Testimonials</h1>
@@ -312,6 +297,7 @@
         </div>
       </div>
     </section>
+
     <!-- Contact -->
     <section id="contact" class="section">
       <h1 class="contact__title">Let's talk</h1>

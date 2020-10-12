@@ -10,6 +10,8 @@
   --color-light-grey: #7c7979;
   --color-light-white: #eeeeee;
   --color-blue: #73aace;
+  --color-bg-blue: #4555e0;
+  --color-dark-blue: #4671c2;
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
   --color-black: #000000;
@@ -93,7 +95,7 @@ p {
 #navbar {
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-pink);
+  background-color: var(--color-bg-blue);
   align-items: center;
   color: var(--color-white);
   padding: 16px;
@@ -120,7 +122,7 @@ p {
 }
 
 .navbar__menu__item:hover {
-  background-color: var(--color-dark-pink);
+  background-color: var(--color-dark-blue);
 }
 
 /* Home */
@@ -132,7 +134,7 @@ p {
 
 .home__avatar {
   width: 250px;
-  height: 250px;
+  height: 280px;
   border-radius: 50%;
   border: 2px solid var(--color-light-white);
 }
@@ -167,7 +169,7 @@ p {
 /* About */
 .about__majors {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 80px 0;
 }
 
@@ -204,6 +206,7 @@ p {
 .job {
   display: flex;
   align-items: center;
+  padding-left: 250px;
 }
 
 .job__description {
@@ -278,4 +281,61 @@ p {
 .tools,
 .etc {
   padding: 20px;
+}
+
+/* Work */
+
+.work__categories {
+  margin: 40px;
+}
+.category__btn {
+  border: 1px solid var(--color-dark-white);
+  border-radius: var(--size-border-radius);
+  font-size: var(--font-regular);
+  padding: 8px 48px;
+}
+
+.category__btn.active,
+.category__btn:hover {
+  background-color: var(--color-pink);
+  text: var(--color-white);
+}
+
+.catagory__btn.active .category__count,
+.category__btn:hover .category__count {
+  opacity: 1;
+  top: 0;
+}
+
+.category__count {
+  background-color: var(--color-orange);
+  border-radius: 50%;
+  color: var(--color-white);
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  left: 4px;
+  opacity: 0;
+  transition: all var(--animation-duration) ease-in;
+}
+
+.work__projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  width: 280px;
+  height: 250px;
+  margin: 2px;
+  background-color: yellow;
+}
+
+.project__img {
+  max-width: 100%;
+  max-height: 100%;
 }
